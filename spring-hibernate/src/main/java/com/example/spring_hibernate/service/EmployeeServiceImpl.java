@@ -24,7 +24,7 @@ public class EmployeeServiceImpl implements EmployeeService{
     @Transactional
     @Override
     public Employee get(int id) {
-        return null;
+        return employeeDOA.get(id);
     }
 
     @Transactional
