@@ -37,5 +37,6 @@ public class EmployeeServiceImpl implements EmployeeService{
     @Override
     public void delete(int id) {
 
+        employeeDOA.delete(id);
     }
 }
