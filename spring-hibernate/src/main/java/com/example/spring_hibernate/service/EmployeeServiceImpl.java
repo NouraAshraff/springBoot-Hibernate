@@ -30,7 +30,7 @@ public class EmployeeServiceImpl implements EmployeeService{
     @Transactional
     @Override
     public void save(Employee employee) {
-
+        employeeDOA.save(employee);
     }
 
     @Transactional
